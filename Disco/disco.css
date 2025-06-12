@@ -1,0 +1,66 @@
+body{
+  background-image: url(disco.jpg);
+  background-size: cover;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+}
+.name-container{
+  display: flex;
+  padding: 15px;
+  gap: 10px;
+  text-shadow: #ffffff 1px 1px 5px;
+  align-items: center;
+}.name-container i{
+  font-size: 30px;
+  margin-top: 1px;
+}.name-container h1{
+  margin: 0;
+}
+.name-container .first-letter {
+  display: inline-block;
+  margin-left: 1px;
+}.main-container h4{
+  position: absolute;
+  display: flex;
+  font-size: 20px;
+  text-shadow: #ffffff 1px 1px 5px;
+  margin: 0;
+  text-align: center;
+  align-items: center;
+  margin-top: -270px;
+}.main-container p{
+  position: absolute;
+  margin-bottom: 13rem;
+}.main-container h5{
+  position: absolute;
+  margin-left: -90px;
+  margin-top: -40px;
+}.user-status{
+  position: absolute;
+  margin-left: -80px;
+  margin-top: -25px;
+  color: green;
+}
+
+
+.user-container img{
+  position: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 60%;
+  margin-left: -140px;
+  margin-top: 20px;
+}.main-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 90vh;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.829);
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.911);
+  max-width: 800px;
+  max-height: 300px
+}

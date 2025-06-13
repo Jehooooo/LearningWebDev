@@ -49,5 +49,5 @@ Feel free to check out my progress, suggest improvements, or even join me on thi
 ## 🔗 Connect
 
 📧 [jehosuebiscarra@gmail.com]  
-🐦 [[IG: ](https://www.instagram.com/capt.jehoooo/)]
+🐦 [[Instagram](https://www.instagram.com/capt.jehoooo/)]
 

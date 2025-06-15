@@ -1,5 +1,5 @@
 body{
-  background-image: url(disco.jpg);
+  background-image: url(images/disco.jpg);
   background-size: cover;
   background-color: #f0f0f0;
   font-family: Arial, sans-serif;
@@ -24,7 +24,7 @@ body{
   position: absolute;
   display: flex;
   font-size: 20px;
-  text-shadow: #ffffff 1px 1px 5px;
+  text-shadow: #2a2438 1px 1px 5px;
   margin: 0;
   text-align: center;
   align-items: center;
@@ -51,6 +51,7 @@ body{
   margin-top: -3rem;
 }.main-container{
   display: flex;
+  
   align-items: center;
   justify-content: center;
   margin: 0 auto;
@@ -77,23 +78,7 @@ body{
   cursor: pointer;
   transform: rotate(360deg);
   transition: transform 0.5s ease-in-out;
-}.login-menu{
-  display: absolute;
-  position: absolute;
-  gap: -10px;
-  flex-direction: column;
-  font-size: -10px;
-  margin-top: -9.9rem;
-  margin-left: 1rem;
-  width: 10px;
-  margin-top: -2.5rem;
-}.login-menu li{
-  height: 7px;
-  margin-left: 10rem;
-
-
-}
-.add-button{
+}.add-button{
   align-items: center;
   text-align: center;
   position: absolute;
@@ -125,4 +110,11 @@ body{
   color: rgb(150, 150, 150);
   cursor: pointer;
   text-decoration: underline;
+}
+
+/*discomlogin part*/
+.mainlogin-container{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }

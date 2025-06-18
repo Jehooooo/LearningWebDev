@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Student Registration Form</title>
+</head>
+
+<body>
+  <div class="form-container">
+    <form action="#">
+      <h2>Student Registration Form</h2>
+
+      <label class="info-container" for="full-name">Full Name</label>
+      <input class="info-type" type="name" placeholder="Full Name" required />
+      <label class="info-container" for="email">Email</label>
+      <input class="info-type" type="email" placeholder="Email" required />
+      <label class="info-container" for="date" aria-placeholder="">Birthday</label>
+      <input class="info-type" type="date" placeholder="Date of Birth" required />
+      <div class="info-gender">
+        <input class="info-gender1" type="radio" id="male" name="gender" value="male" />
+        <label class="info-gender2" for="male">Male</label>
+
+        <input class="info-gender1" type="radio" id="female" name="gender" value="female" />
+        <label class="info-gender2" for="female">Female</label>
+      </div>
+
+      <label class="info-container" for="Course">Course</label>
+      <select class="info-course" name="courses" id="courses">
+        <option value="BSCS">Bachelor of Science in Computer Science</option>
+        <option value="BSIT">
+          Bachelor of Science in Information Technology
+        </option>
+        <option value="BSIS">
+          Bachelor of Science in Information Systems
+        </option>
+        <option value="BSBA">
+          Bachelor of Science in Business Administration
+        </option>
+        <option value="BSN">Bachelor of Science in Nursing</option>
+        <option value="BSPsy">Bachelor of Arts in Psychology</option>
+        <option value="BSE">Bachelor of Science in Engineering</option>
+        <option value="BAComm">Bachelor of Arts in Communication</option>
+        <option value="BSDS">Bachelor of Science in Data Science</option>
+        <option value="BSCyber">Bachelor of Science in Cybersecurity</option>
+      </select>
+      <label class="info-container" for="text">Hobbies/Interests</label>
+    </form>
+
+    <form action="#">
+
+      <div class="form-row">
+        <label class="hobby-container1" for="Coding">Coding</label>
+        <input class="hobby-container2" type="checkbox" id="Coding" name="Coding" value="Coding" />
+      </div>
+
+      <div class="form-row">
+        <label class="hobby-container1" for="Badminton">Badminton</label>
+        <input class="hobby-container2" type="checkbox" id="Badminton" name="Badminton" value="Badminton" />
+      </div>
+
+      <div class="form-row">
+        <label class="hobby-container1" for="Music">Music</label>
+        <input class="hobby-container2" type="checkbox" id="Music" name="Music" value="Music" />
+      </div>
+
+      <div class="form-row">
+        <label class="hobby-container1" for="Dancing">Dancing</label>
+        <input class="hobby-container2" type="checkbox" id="Dancing" name="Dancing" value="Dancing" />
+      </div>
+
+      <div class="form-row">
+        <label class="hobby-container1" for="text">Others:</label>
+        <input class="hobby-container2" id="hobby-container2" type="text" name="text" id="text" placeholder="Others" />
+      </div>
+
+
+    </form>
+
+    </form>
+    <form action="#">
+      <label class="password" for="password-field">Password</label>
+      <input class="password-container" type="password" id="password-field" name="password-field" placeholder="Password"
+        required>
+    </form>
+    <button class="submit-container" id="submit-info">Submit</button>
+  </div>
+</body>
+
+</html>

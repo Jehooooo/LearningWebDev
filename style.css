@@ -18,6 +18,7 @@ body {
   max-width: 500px;
   max-height: 950px;
   margin: auto;
+  overflow-y: auto;
 }
 
 .form-container h2 {
@@ -140,8 +141,8 @@ body {
   bottom: -40px;
   margin-bottom: 100px;
 }.password-container:hover {
-  border: red solid 2px;
-  color: greenyellow;
+  border: #ff0000 solid 2px;
+  color: #adff2f;
   background: #833AB4;
   background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
 }
@@ -167,5 +168,6 @@ body {
   }
   .info-type, .password-container {
     margin-left: 0;
+    list-style-type: s;
   }
 }

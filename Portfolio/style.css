@@ -167,3 +167,43 @@ body{
   list-style-type: none;
   padding: 0;
 }
+
+/*This is the part to be the website responsive Use @media screen*/
+@media screen and (max-width: 900px) {
+    .pfp-pict {
+        margin-left: auto;
+        margin-top: 20px;
+        width: 120px;
+        height: 120px;
+        position: relative;
+        align-items: center;
+        display: block;
+    }
+    .name-name {
+        margin-left: auto;
+        font-size: 1.5em;
+        display: block;
+        position: relative;
+        text-align: center;
+
+
+    }
+    .socials {
+        margin-left: auto;
+        display: flex;
+        text-align: center;
+        position: relative;
+        margin-top: -220px;
+    }
+    .home {
+        margin-left: 0;
+        top: 400px;
+    }
+    #home-name {
+        font-size: 2.5em;
+    }
+    #home-name1 {
+        font-size: 1.5em;
+    }
+}
+    
